@@ -1,0 +1,106 @@
+.coin_card{
+    height:20rem;
+    width:18rem;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(43, 41, 41);
+    position:relative;
+    border-radius: 1rem;
+    gap:1.5rem;
+    box-shadow:10px 0px 3px rgba(0,0,0,.35);
+    
+
+}
+*{
+    text-decoration: none;
+}
+
+.coin_card:hover{
+    transform: scale(1.05);
+    border:1px solid rgb(192, 189, 189);
+    cursor: pointer;
+}
+
+.coin_card_head{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+.coin_img{
+    height:4rem;
+    width:4rem;
+    border-radius: 2rem;
+    border:2px solid rgb(235, 224, 224);
+    padding:0.3rem
+
+}
+.coin_name{
+    color: antiquewhite;
+
+}
+
+.coin_rank{
+    color:rgb(24, 24, 23);
+    width:2rem;
+    background-color: rgb(129, 188, 222);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-right:0.25rem;
+    padding-left: 0.25rem;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+}
+
+.coin_price{
+    display:flex;
+    gap:1rem;
+}
+
+.coin_p{
+    color:rgb(238, 205, 121);
+    font-size: 1.125rem;
+    font-weight: 650;
+
+}
+
+.coin_cp{
+    color:rgb(237, 227, 214)
+}
+   
+.changein24hrs.up {
+    width:4rem;
+    color: rgb(26, 25, 25);
+    border-radius: 1rem;
+    background-color: rgb(73, 228, 109);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-right:0.25rem;
+    padding-left: 0.25rem;
+    position:absolute;
+    bottom:1rem;
+    left:1rem;
+
+}
+.changein24hrs.down{
+    width:4rem;
+    color: rgb(26, 25, 25);
+    border-radius: 1rem;
+    background-color: rgb(234, 71, 65);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-right:0.25rem;
+    padding-left: 0.25rem;
+    position:absolute;
+    bottom:1rem;
+    left:1rem;
+}
